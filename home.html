@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Project</title>
+  <link rel="stylesheet" href="home1.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <!-- "More Projects" dropdown menu -->
+      <div class="dropdown">
+        <a href="#" class="dropbtn">More Projects</a>
+        <div class="dropdown-content">
+          <a href="#">Project 2</a>
+          <a href="#">Project 3</a>
+          <a href="#">Project 4</a>
+          <!-- Add more default items here -->
+        </div>
+      </div>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <button>Search</button>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <h2>Astronomy Picture Of the Day</h2>
+      <p>
+        write a date in yyyy-mm-dd manner and this will get you the Astronomy picture of that day.
+      </p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+        <input type="text" placeholder="Date">
+        <button class="explore-btn">Explore</button>
+        <div class="right-section-image">
+            <img src="spaceimg.jpg" alt="Space Image">
+        </div>
+        <!-- <input type="text" placeholder="Date">
+        <button class="explore-btn">Explore</button> -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
